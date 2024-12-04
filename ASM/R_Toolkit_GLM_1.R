@@ -275,24 +275,3 @@ ggplot(combined_long, aes(x = continent, y = Count, fill = Type)) +
 
 
 ################################################################################
-# Definiamo la funzione
-y_function <- function(x) {
-  1 + 2 * x
-}
-
-# Generiamo un intervallo per x
-x_values <- seq(-10, 10, by = 0.1)
-
-# Calcoliamo i valori di y
-y_values <- y_function(x_values)
-
-# Creiamo il plot
-plot(x_values, y_values, type = "l", col = "blue", lwd = 2,
-     main = "Grafico della funzione y = 1 + 2x",
-     xlab = "x", ylab = "y")
-grid()  # Aggiunge una griglia per una migliore leggibilità
-
-# Regressione logistica con tracing delle iterazioni
-logit_model <- glm(y ~ x, family = binomial(link = "logit"),
-                   control = glm.control(trace = TRUE))
-
