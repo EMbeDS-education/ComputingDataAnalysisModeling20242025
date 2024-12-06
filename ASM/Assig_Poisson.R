@@ -1,3 +1,22 @@
+# About Dataset
+# The New York City Department of Transportation collects daily data about the 
+# number of bicycles going over bridges in New York City. This data is used to 
+# measure bike utilization as a part of transportation planning. This dataset 
+# is a daily record of the number of bicycles crossing into or out of Manhattan 
+# via one of the East River bridges (that is, excluding Bronx thruways and the 
+# non-bikeable Hudson River tunnels) for 9 months.
+#
+# Content
+# A count of the number of bicycles on each of the bridges in question is provided 
+# on a day-by-day basis, along with information on maximum and minimum temperature and precipitation.
+#
+# Research Questions 
+# In this dataset, how many bicycles cross into and out of Manhattan per day?
+# How strongly do weather conditions affect bike volumes?
+# What is the top bridge in terms of bike load?
+
+
+
 # Step 1: Install and Load Required Packages
 library(dplyr)
 library(tidyverse)
