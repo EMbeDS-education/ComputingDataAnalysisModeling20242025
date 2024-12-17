@@ -1,0 +1,70 @@
+
+### Dataset Documentation: Fam_Income_Exp
+
+#### General Information
+- **File Name:** Fam_Income_Exp.csv
+- **Number of Rows:** 41544
+- **Number of Columns:** 60
+- **Expenditure measured in "Peso Philippines"
+
+#### Columns Overview
+- **Total Household Income**: int64
+- **Region**: object
+- **Total Food Expenditure**: int64
+- **Main Source of Income**: object
+- **Agricultural Household indicator**: int64
+- **Bread and Cereals Expenditure**: int64
+- **Total Rice Expenditure**: int64
+- **Meat Expenditure**: int64
+- **Total Fish and  marine products Expenditure**: int64
+- **Fruit Expenditure**: int64
+- **Vegetables Expenditure**: int64
+- **Restaurant and hotels Expenditure**: int64
+- **Alcoholic Beverages Expenditure**: int64
+- **Tobacco Expenditure**: int64
+- **Clothing, Footwear and Other Wear Expenditure**: int64
+- **Housing and water Expenditure**: int64
+- **Imputed House Rental Value**: int64
+- **Medical Care Expenditure**: int64
+- **Transportation Expenditure**: int64
+- **Communication Expenditure**: int64
+- **Education Expenditure**: int64
+- **Miscellaneous Goods and Services Expenditure**: int64
+- **Special Occasions Expenditure**: int64
+- **Crop Farming and Gardening expenses**: int64
+- **Total Income from Entrepreneurial Acitivites**: int64
+- **Household Head Sex**: object
+- **Household Head Age**: int64
+- **Household Head Marital Status**: object
+- **Household Head Highest Grade Completed**: object
+- **Household Head Job or Business Indicator**: object
+- **Household Head Occupation**: object
+- **Household Head Class of Worker**: object
+- **Type of Household**: object
+- **Total Number of Family members**: int64
+- **Members with age less than 5 year old**: int64
+- **Members with age 5 - 17 years old**: int64
+- **Total number of family members employed**: int64
+- **Type of Building/House**: object
+- **Type of Roof**: object
+- **Type of Walls**: object
+- **House Floor Area**: int64
+- **House Age**: int64
+- **Number of bedrooms**: int64
+- **Tenure Status**: object
+- **Toilet Facilities**: object
+- **Electricity**: int64
+- **Main Source of Water Supply**: object
+- **Number of Television**: int64
+- **Number of CD/VCD/DVD**: int64
+- **Number of Component/Stereo set**: int64
+- **Number of Refrigerator/Freezer**: int64
+- **Number of Washing Machine**: int64
+- **Number of Airconditioner**: int64
+- **Number of Car, Jeep, Van**: int64
+- **Number of Landline/wireless telephones**: int64
+- **Number of Cellular phone**: int64
+- **Number of Personal Computer**: int64
+- **Number of Stove with Oven/Gas Range**: int64
+- **Number of Motorized Banca**: int64
+- **Number of Motorcycle/Tricycle**: int64
