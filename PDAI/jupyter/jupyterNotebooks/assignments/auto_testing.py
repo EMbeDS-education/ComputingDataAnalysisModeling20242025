@@ -20,7 +20,8 @@ def print_testname(msg):
 #These two functions replace 'input()'
 def my_read_list(lst_param):
     for i in lst_param:
-        yield i
+        yield str(i)
+        #yield i
 
 def my_input(*args, **kwargs):
     return next(_inputs_provider)
