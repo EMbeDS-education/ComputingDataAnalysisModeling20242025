@@ -1,0 +1,42 @@
+,case_id,activity,timestamp,costs,resource,case:concept:name,concept:name,time:timestamp,@@index,@@case_index
+0,1,register request,2010-12-30 10:02:00+00:00,50,Pete,1,register request,2010-12-30 10:02:00+00:00,0,0
+1,1,examine thoroughly,2010-12-31 09:06:00+00:00,400,Sue,1,examine thoroughly,2010-12-31 09:06:00+00:00,1,0
+2,1,check ticket,2011-01-05 14:12:00+00:00,100,Mike,1,check ticket,2011-01-05 14:12:00+00:00,2,0
+3,1,decide,2011-01-06 10:18:00+00:00,200,Sara,1,decide,2011-01-06 10:18:00+00:00,3,0
+4,1,reject request,2011-01-07 13:24:00+00:00,200,Pete,1,reject request,2011-01-07 13:24:00+00:00,4,0
+5,2,register request,2010-12-30 10:32:00+00:00,50,Mike,2,register request,2010-12-30 10:32:00+00:00,5,1
+6,2,check ticket,2010-12-30 11:12:00+00:00,100,Mike,2,check ticket,2010-12-30 11:12:00+00:00,6,1
+7,2,examine casually,2010-12-30 13:16:00+00:00,400,Sean,2,examine casually,2010-12-30 13:16:00+00:00,7,1
+8,2,decide,2011-01-05 10:22:00+00:00,200,Sara,2,decide,2011-01-05 10:22:00+00:00,8,1
+9,2,pay compensation,2011-01-08 11:05:00+00:00,200,Ellen,2,pay compensation,2011-01-08 11:05:00+00:00,9,1
+10,3,register request,2010-12-30 13:32:00+00:00,50,Pete,3,register request,2010-12-30 13:32:00+00:00,10,2
+11,3,examine casually,2010-12-30 14:06:00+00:00,400,Mike,3,examine casually,2010-12-30 14:06:00+00:00,11,2
+12,3,check ticket,2010-12-30 15:34:00+00:00,100,Ellen,3,check ticket,2010-12-30 15:34:00+00:00,12,2
+13,3,decide,2011-01-06 08:18:00+00:00,200,Sara,3,decide,2011-01-06 08:18:00+00:00,13,2
+15,3,examine thoroughly,2011-01-06 12:06:00+00:00,400,Sean,3,examine thoroughly,2011-01-06 12:06:00+00:00,15,2
+16,3,check ticket,2011-01-08 10:43:00+00:00,100,Pete,3,check ticket,2011-01-08 10:43:00+00:00,16,2
+17,3,decide,2011-01-09 08:55:00+00:00,200,Sara,3,decide,2011-01-09 08:55:00+00:00,17,2
+18,3,pay compensation,2011-01-15 09:45:00+00:00,200,Ellen,3,pay compensation,2011-01-15 09:45:00+00:00,18,2
+19,4,register request,2011-01-06 14:02:00+00:00,50,Pete,4,register request,2011-01-06 14:02:00+00:00,19,3
+20,4,check ticket,2011-01-07 11:06:00+00:00,100,Mike,4,check ticket,2011-01-07 11:06:00+00:00,20,3
+21,4,examine thoroughly,2011-01-08 13:43:00+00:00,400,Sean,4,examine thoroughly,2011-01-08 13:43:00+00:00,21,3
+22,4,decide,2011-01-09 11:02:00+00:00,200,Sara,4,decide,2011-01-09 11:02:00+00:00,22,3
+23,4,reject request,2011-01-12 14:44:00+00:00,200,Ellen,4,reject request,2011-01-12 14:44:00+00:00,23,3
+24,5,register request,2011-01-06 08:02:00+00:00,50,Ellen,5,register request,2011-01-06 08:02:00+00:00,24,4
+25,5,examine casually,2011-01-07 09:16:00+00:00,400,Mike,5,examine casually,2011-01-07 09:16:00+00:00,25,4
+26,5,check ticket,2011-01-08 10:22:00+00:00,100,Pete,5,check ticket,2011-01-08 10:22:00+00:00,26,4
+27,5,decide,2011-01-10 12:28:00+00:00,200,Sara,5,decide,2011-01-10 12:28:00+00:00,27,4
+28,5,reinitiate request,2011-01-11 15:18:00+00:00,200,Sara,5,reinitiate request,2011-01-11 15:18:00+00:00,28,4
+29,5,check ticket,2011-01-14 13:33:00+00:00,100,Ellen,5,check ticket,2011-01-14 13:33:00+00:00,29,4
+30,5,examine casually,2011-01-16 14:50:00+00:00,400,Mike,5,examine casually,2011-01-16 14:50:00+00:00,30,4
+31,5,decide,2011-01-19 10:18:00+00:00,200,Sara,5,decide,2011-01-19 10:18:00+00:00,31,4
+32,5,reinitiate request,2011-01-20 11:48:00+00:00,200,Sara,5,reinitiate request,2011-01-20 11:48:00+00:00,32,4
+33,5,examine casually,2011-01-21 08:06:00+00:00,400,Sue,5,examine casually,2011-01-21 08:06:00+00:00,33,4
+34,5,check ticket,2011-01-21 10:34:00+00:00,100,Pete,5,check ticket,2011-01-21 10:34:00+00:00,34,4
+35,5,decide,2011-01-23 12:12:00+00:00,200,Sara,5,decide,2011-01-23 12:12:00+00:00,35,4
+36,5,reject request,2011-01-24 13:56:00+00:00,200,Mike,5,reject request,2011-01-24 13:56:00+00:00,36,4
+37,6,register request,2011-01-06 14:02:00+00:00,50,Mike,6,register request,2011-01-06 14:02:00+00:00,37,5
+38,6,examine casually,2011-01-06 15:06:00+00:00,400,Ellen,6,examine casually,2011-01-06 15:06:00+00:00,38,5
+39,6,check ticket,2011-01-07 15:22:00+00:00,100,Mike,6,check ticket,2011-01-07 15:22:00+00:00,39,5
+40,6,decide,2011-01-07 15:52:00+00:00,200,Sara,6,decide,2011-01-07 15:52:00+00:00,40,5
+41,6,pay compensation,2011-01-16 10:47:00+00:00,200,Mike,6,pay compensation,2011-01-16 10:47:00+00:00,41,5
